@@ -1,0 +1,5 @@
+- name: Deploying website to servers
+  hosts: demo
+  become: yes
+  roles:
+     - roles
